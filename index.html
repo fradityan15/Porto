@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Fakhrul Rohmat | Portfolio</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Fakhrul Rohmat</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <i class="bi bi-moon-fill" id="theme-icon"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <div class="container reveal">
+        <img src="img/Biru.jpg" alt="Fakhrul Rohmat Aditya Negara" class="rounded-circle hero-img mb-4" />
+        <h1 class="display-4 fw-bold">Fakhrul Rohmat Aditya Negara</h1>
+        <div class="typing-container mt-3">
+          <span class="fs-4 typing-text" id="typing-text"></span>
+        </div>
+      </div>
+      <svg class="wave-svg mt-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+    </section>
+    <!-- akhirjumbotron-->
+
+    <!-- about & experience -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-5 reveal">
+          <div class="col">
+            <h2>About Me & Experience</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-stretch">
+          <div class="col-lg-5 mb-4 mb-lg-0 reveal">
+            <div class="about-card">
+              <i class="bi bi-person-badge about-icon"></i>
+              <h3 class="fw-bold mb-3">Who am I?</h3>
+              <p>Saya adalah seorang <strong>Programmer</strong> dan <strong>Data Analyst</strong> yang berdedikasi untuk menciptakan solusi teknologi yang efisien dan menganalisis data untuk menghasilkan wawasan bisnis yang bermanfaat.</p>
+              <p>Dengan latar belakang yang kuat dalam pengembangan web dan pengolahan data, saya selalu tertarik untuk memecahkan masalah yang kompleks melalui kode dan logika yang rapi.</p>
+            </div>
+          </div>
+          <div class="col-lg-7 reveal">
+            <div class="about-card">
+              <i class="bi bi-briefcase about-icon"></i>
+              <h3 class="fw-bold mb-4">Experience & Education</h3>
+              
+              <div class="d-flex mb-4">
+                <div class="me-3">
+                  <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                    <i class="bi bi-laptop"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 class="fw-bold mb-1">Web Developer & Data Analyst</h5>
+                  <p class="text-primary mb-1 small fw-bold">Freelance | 2023 - Present</p>
+                  <p class="small opacity-75">Mengembangkan berbagai aplikasi web responsif dan menganalisis dataset untuk klien guna membantu pengambilan keputusan strategis.</p>
+                </div>
+              </div>
+
+              <div class="d-flex">
+                <div class="me-3">
+                  <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                    <i class="bi bi-mortarboard"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 class="fw-bold mb-1">Pendidikan Informatika</h5>
+                  <p class="text-primary mb-1 small fw-bold">Universitas | Lulusan Terbaik</p>
+                  <p class="small opacity-75">Fokus pada rekayasa perangkat lunak, struktur data, algoritma, dan analisis data skala besar.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir about-->
+
+    <!-- skills -->
+    <section id="skills">
+      <div class="container">
+        <div class="row text-center mb-5 reveal">
+          <div class="col">
+            <h2>My Skills</h2>
+            <p class="lead opacity-75">Teknologi dan alat yang sering saya gunakan.</p>
+          </div>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-6 col-md-4 col-lg-2 reveal">
+            <div class="skill-box">
+              <i class="bi bi-filetype-html skill-icon text-danger"></i>
+              <h5 class="fw-bold m-0">HTML5</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 reveal">
+            <div class="skill-box">
+              <i class="bi bi-filetype-css skill-icon text-info"></i>
+              <h5 class="fw-bold m-0">CSS3</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 reveal">
+            <div class="skill-box">
+              <i class="bi bi-filetype-js skill-icon text-warning"></i>
+              <h5 class="fw-bold m-0">JavaScript</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 reveal">
+            <div class="skill-box">
+              <i class="bi bi-filetype-py skill-icon text-primary"></i>
+              <h5 class="fw-bold m-0">Python</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 reveal">
+            <div class="skill-box">
+              <i class="bi bi-database skill-icon text-success"></i>
+              <h5 class="fw-bold m-0">SQL</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 reveal">
+            <div class="skill-box">
+              <i class="bi bi-bar-chart-fill skill-icon text-secondary"></i>
+              <h5 class="fw-bold m-0">Data Analysis</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir skills -->
+
+    <!-- projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-5 reveal">
+          <div class="col">
+            <h2>My Projects</h2>
+            <p class="lead opacity-75">Beberapa karya dan portofolio terbaik saya.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="project-card">
+              <div class="img-wrapper">
+                <img src="img/projects/4.jpg" alt="Data Analytics Dashboard" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop'">
+              </div>
+              <div class="card-body">
+                <h4 class="fw-bold mb-3">Data Analytics Dashboard</h4>
+                <div class="badge-stack">
+                  <span class="badge text-bg-primary">Python</span>
+                  <span class="badge text-bg-info">Pandas</span>
+                  <span class="badge text-bg-warning">JavaScript</span>
+                </div>
+                <p class="mb-4">Dashboard interaktif yang menampilkan visualisasi data penjualan secara real-time, membantu manajemen dalam melacak KPI perusahaan.</p>
+                <a href="#" class="btn btn-outline-primary btn-project">View Project <i class="bi bi-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="project-card">
+              <div class="img-wrapper">
+                <img src="img/projects/2.jpg" alt="E-Commerce Website" onerror="this.src='https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=800&auto=format&fit=crop'">
+              </div>
+              <div class="card-body">
+                <h4 class="fw-bold mb-3">E-Commerce Website</h4>
+                <div class="badge-stack">
+                  <span class="badge text-bg-danger">HTML</span>
+                  <span class="badge text-bg-info">CSS</span>
+                  <span class="badge text-bg-warning">JS</span>
+                </div>
+                <p class="mb-4">Platform e-commerce responsif dengan fitur keranjang belanja, integrasi pembayaran, dan panel admin untuk manajemen produk.</p>
+                <a href="#" class="btn btn-outline-primary btn-project">View Project <i class="bi bi-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="project-card">
+              <div class="img-wrapper">
+                <img src="img/projects/3.jpg" alt="Machine Learning Model" onerror="this.src='https://images.unsplash.com/photo-1527474305487-b87b222841cc?q=80&w=800&auto=format&fit=crop'">
+              </div>
+              <div class="card-body">
+                <h4 class="fw-bold mb-3">Sales Prediction Model</h4>
+                <div class="badge-stack">
+                  <span class="badge text-bg-primary">Python</span>
+                  <span class="badge text-bg-success">Scikit-Learn</span>
+                  <span class="badge text-bg-secondary">SQL</span>
+                </div>
+                <p class="mb-4">Model machine learning untuk memprediksi tren penjualan bulan berikutnya berdasarkan histori data 5 tahun terakhir.</p>
+                <a href="#" class="btn btn-outline-primary btn-project">View Project <i class="bi bi-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir Projects -->
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-5 reveal">
+          <div class="col">
+            <h2>Contact Me</h2>
+            <p class="lead opacity-75">Mari berkolaborasi dan wujudkan ide Anda.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center g-5">
+          <div class="col-lg-5 reveal">
+            <div class="contact-info h-100 justify-content-center">
+              <h3 class="fw-bold mb-4">Mari terhubung!</h3>
+              <p class="mb-5 opacity-75">Jika Anda memiliki pertanyaan atau penawaran proyek, jangan ragu untuk menghubungi saya melalui form di samping atau melalui kontak di bawah ini.</p>
+              
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-0">Email</h6>
+                  <p class="mb-0 opacity-75">fakhrul@example.com</p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-0">Location</h6>
+                  <p class="mb-0 opacity-75">Indonesia</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="bi bi-linkedin"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-0">LinkedIn</h6>
+                  <p class="mb-0 opacity-75">Fakhrul Rohmat A N</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 reveal">
+            <div class="contact-wrapper">
+              <form>
+                <div class="mb-4">
+                  <label for="name" class="form-label fw-bold">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+                </div>
+                <div class="mb-4">
+                  <label for="email" class="form-label fw-bold">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="nama@contoh.com">
+                </div>
+                <div class="mb-4">
+                  <label for="pesan" class="form-label fw-bold">Pesan</label>
+                  <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan Anda di sini..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary px-5 py-2 fw-bold w-100 rounded-pill">Kirim Pesan <i class="bi bi-send ms-2"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir contact -->
+
+    <!-- footer -->
+    <footer class="text-center">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col">
+            <h4 class="fw-bold mb-3">Fakhrul Rohmat A N</h4>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/fradityan15_/" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-github"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="mb-0 opacity-75">Created with <i class="bi bi-suit-heart-fill text-danger mx-1"></i> by <a href="https://www.instagram.com/fradityan15_/" class="text-decoration-none fw-bold">Fakhrul Rohmat A N</a>.</p>
+            <p class="small mt-2 opacity-50">&copy; 2026 All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmxc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Custom Script -->
+    <script>
+      // Theme Toggle Logic
+      const themeToggleBtn = document.getElementById('theme-toggle');
+      const themeIcon = document.getElementById('theme-icon');
+      const htmlElement = document.documentElement;
+
+      themeToggleBtn.addEventListener('click', () => {
+        const currentTheme = htmlElement.getAttribute('data-bs-theme');
+        if (currentTheme === 'dark') {
+          htmlElement.setAttribute('data-bs-theme', 'light');
+          themeIcon.classList.replace('bi-moon-fill', 'bi-sun-fill');
+        } else {
+          htmlElement.setAttribute('data-bs-theme', 'dark');
+          themeIcon.classList.replace('bi-sun-fill', 'bi-moon-fill');
+        }
+      });
+
+      // Typing Effect Logic
+      const texts = ["Programmer", "Data Analyst"];
+      let count = 0;
+      let index = 0;
+      let currentText = "";
+      let letter = "";
+      let isDeleting = false;
+      const typingSpeed = 100;
+      const erasingSpeed = 50;
+      const delayBetweenTexts = 2000;
+
+      function type() {
+        if (count === texts.length) {
+          count = 0;
+        }
+        currentText = texts[count];
+
+        if (isDeleting) {
+          letter = currentText.slice(0, --index);
+        } else {
+          letter = currentText.slice(0, ++index);
+        }
+
+        document.getElementById('typing-text').textContent = letter;
+
+        let typeDelay = isDeleting ? erasingSpeed : typingSpeed;
+
+        if (!isDeleting && letter.length === currentText.length) {
+          typeDelay = delayBetweenTexts;
+          isDeleting = true;
+        } else if (isDeleting && letter.length === 0) {
+          isDeleting = false;
+          count++;
+          typeDelay = 500;
+        }
+
+        setTimeout(type, typeDelay);
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        setTimeout(type, 1000);
+      });
+
+      // Scroll Reveal Animation
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 100;
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          }
+        }
+      }
+      window.addEventListener("scroll", reveal);
+      reveal(); // Trigger on load
+    </script>
+  </body>
+</html>
